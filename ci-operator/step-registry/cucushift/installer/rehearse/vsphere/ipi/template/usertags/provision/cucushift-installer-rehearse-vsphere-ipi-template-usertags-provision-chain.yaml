@@ -1,7 +1,7 @@
 chain:
   as: cucushift-installer-rehearse-vsphere-ipi-template-usertags-provision
   steps:
-  - ref: ipi-conf-vsphere-check
+  - ref: ipi-conf-vsphere-check # NAG - TODO: Is this chain only used by jobs that are configuring elastic?
   - ref: vsphere-provision-usertags
   - ref: ipi-conf-vsphere-vips
   - ref: ipi-conf-vsphere-dns

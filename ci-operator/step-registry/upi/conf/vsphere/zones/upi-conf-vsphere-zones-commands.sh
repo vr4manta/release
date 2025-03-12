@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This Script is deprecated and should no longer be used.  Its being removed from all chains in favor of upi-conf-vsphere-vcm
+
 set -o nounset
 set -o errexit
 set -o pipefail

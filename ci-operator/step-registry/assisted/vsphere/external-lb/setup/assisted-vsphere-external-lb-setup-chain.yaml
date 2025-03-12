@@ -2,7 +2,7 @@ chain:
   as: assisted-vsphere-external-lb-setup
   steps:
     # Configure vsphere parameters and cleanup ci env before job execution
-    - ref: ipi-conf-vsphere-check
+#    - ref: ipi-conf-vsphere-check
     - ref: ipi-conf-vsphere-check-vcm
     # Configures the external load balancer
     - ref: ipi-conf-vsphere-lb-external
